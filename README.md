@@ -53,8 +53,8 @@ each tool round would rewrite the whole history. Two transformations from the He
 prefix stable: the queried tool-result turn is restored to Zed's bytes (only trailing bare text the
 CLI appended is removed, and only when the frame maps unambiguously), and marks after the stable span
 are folded into one on the last block the next request replays. Measured on Fable 5.1 through this
-relay: a three-request tool round read 15 379 and 15 729 of about 15 800 prompt tokens from cache on
-requests 2 and 3.
+relay on 2026-10-05 (Claude Code 2.1.289): a three-request tool round read 15 379 and 15 729 of about
+15 800 prompt tokens from cache on requests 2 and 3.
 
 ## Requirements
 
