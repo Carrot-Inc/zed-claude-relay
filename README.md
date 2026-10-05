@@ -66,7 +66,7 @@ relay on 2026-10-05 (Claude Code 2.1.289): a three-request tool round read 15 37
 ## Install
 
 ```sh
-git clone <this repo> ~/programming/zed-claude-relay
+git clone https://github.com/Carrot-Inc/zed-claude-relay.git ~/programming/zed-claude-relay
 cd ~/programming/zed-claude-relay
 launchd/install.sh          # macOS: a LaunchAgent that keeps the relay on 127.0.0.1:7865
 ```
